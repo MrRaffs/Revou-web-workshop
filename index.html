@@ -31,9 +31,24 @@
 
         <section class="main-content">
             <article class="main-content-item">
-                <div class="main-content-banner"></div>
+                <div class="main-content-banner">
+                    <div class="slider">
+                        <div class="slides">
+                        <img class="slide active" src="assets/banner/car 1.jpg" alt="car 1">
+                        <img class="slide" src="assets/banner/car 2.jpg" alt="car 2">
+                        <img class="slide" src="assets/banner/car 3.jpg" alt="car 3">
+                        <img class="slide" src="assets/banner/car 4.jpg" alt="car 4">
+                        </div>
 
-                <p><i>"Apa warna Koenigsegg mu?"</i></p>
+                        <div class="button">
+                        <button class="prev" onclick="prevSlide()">&#10094</button>
+                        <button class="next" onclick="nextSlide()">&#10095</button> 
+                        </div>
+                    </div>
+
+                </div>
+
+                <p><i>"Apa warna GTR mu?"</i></p>
                 
                 <div class="main-content-review">
                     <div class="review-icon"></div>
@@ -56,13 +71,13 @@
 
                 <section class="form-container">
                     <label for="name">Name</label>
-                    <input type="text" id="name" name="name" placeholder="Your name..">
+                    <input required type="text" id="name" name="name" placeholder="Your name..">
 
                     <label for="email">Email Adress</label>
-                    <input type="email" id="email" name="email" placeholder="Your Email..">
+                    <input required type="email" id="email" name="email" placeholder="Your Email..">
 
                     <label for="phone">Phone Number</label>
-                    <input type="phone" id="phone" name="phone" placeholder="Your Phone Number..">
+                    <input required type="tel" id="phone" name="phone" placeholder="Your Phone Number..">
 
                     <label for="option">What are you interested in?</label>
                     <select id="option" name="option">
@@ -71,7 +86,7 @@
                         <option value="costumer-service">Costumer Service</option>
                     </select>
 
-                    <button type="button">Submit</button>
+                    <button type="submit">Submit</button>
                 </section>
             </form>
         </section>
@@ -167,6 +182,8 @@
     <footer>
         <p>@2024 Prestige Auto.</p>
     </footer>
+
+<script src="/22-jul-24-MrRaffs/js/script.js"></script> 
 </body>
 
 

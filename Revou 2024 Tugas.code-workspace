@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"xutility": "cpp",
+			"xstring": "cpp",
+			"iostream": "cpp",
+			"fstream": "cpp",
+			"iosfwd": "cpp",
+			"ostream": "cpp",
+			"xiosbase": "cpp"
+		},
+		"git.ignoreLimitWarning": true,
+		"liveServer.settings.multiRootWorkspaceName": "RevoU 2024"
+	}
+}
